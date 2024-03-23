@@ -1,0 +1,462 @@
+
+/*settings start*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.centered{
+    max-width: 1700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+html{
+    font-family: sans-serif;
+}
+/*settings end*/
+
+
+
+
+/* header 1 start*/
+.header-1{
+    max-width: 1700px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.header-1_left-wrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.header-1_left-wrapper p:first-child{
+    width: 40px;
+    height: 40px;
+}
+
+.header-1_left-wrapper p:last-child{
+  display: grid;
+  place-content: center;
+}
+
+.header-1_right-wrapper{
+    display: flex;
+    gap: 20px;
+    display: flex;
+}
+
+.header-1_right-wrapper p:first-child{
+    color: grey;
+    font-weight: 600;
+}
+
+.header-1_right-wrapper p:last-child{
+    color: #285dd2;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header-1_right-wrapper  *{
+ display: grid;
+ place-content: center;
+ font-weight: 600;
+}
+/*header 1 end*/
+
+
+hr{
+    color: rgb(238, 238, 238);
+}
+
+
+
+/* header 2 start */
+.header-2{
+    max-width: 1700px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0px 3px 12px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 3px 12px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 12px -2px rgba(0,0,0,0.75);
+    position: relative;
+    z-index: 2;
+}
+
+/*left start*/
+.header-2_left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.burger-logo{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+.YT-logo-and-name{
+    display: flex;
+}
+
+.youtybe-name{
+    display: grid;
+    place-content: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+/*left end*/
+
+
+
+
+/*centered start*/
+.header-2_centered{
+    max-width: 700px;
+    width: 100%;
+    border: 2px solid rgb(195, 195, 195);
+    display: flex;
+    gap: 2px;
+    background-color: rgb(195, 195, 195);
+}
+
+.input-wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.input-wrapper > input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 18px;
+    padding: 0px 10px;
+}
+
+.input-button{
+    padding: 0px 30px;
+    display: grid;
+    place-content: center;
+    color: gray;
+    font-weight: 700;
+    background-color: lightgray;
+    cursor: pointer;
+}
+/*centered end*/
+
+
+
+
+/*right start*/
+.header-2_right{
+    max-width: 370px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header-2_right *{
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+.header-2_right > .user-R{
+    border: 2px solid #285dd2;
+    width: fit-content;
+    height: 45px;
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.user-circle{
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+}
+
+.user-signIN{
+    height: 45px;
+    display: grid;
+    place-content: center;
+    color: #285dd2 ;
+    line-height: 2.5;
+    padding: 0px 5px;
+    font-weight: 600;
+    width: 100%;
+}
+/*right end*/
+/* header 2 end */
+
+/* main start ----------------------------------------------------------------------------------*/
+
+/* main start*/
+.all-wrapper-section{
+    max-width: 1700px;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: lightblue;
+    display: flex;
+}
+
+.aside-left{
+    width: 20%;
+    background-color: grey;
+}
+
+.aside-right{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+}
+
+.aside-right .aside-right_header{
+    background-color: rgb(208, 239, 250);
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside-right_header-left{
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+    margin-left: 20px;
+}
+
+.aside-right_header-left .ex-mark{
+  height: 50px;
+  width: 50px;
+  display: grid;
+  place-content: center;
+  rotate: 180deg;
+}
+
+.terms-of{
+    display: flex;
+    align-items: center;
+}
+
+.aside-right_header-right{
+    font-weight: 600;
+    color: #285dd2;
+    display: flex;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.aside-right .aside-right_middle{
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+
+.aside-right_middle{
+    display: flex;
+    position: relative;
+}
+
+.x{
+    font-size: 50px;
+    font-weight: initial;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    z-index: 10;
+    rotate: 45deg;
+    color: gray;
+    cursor: pointer;
+}
+
+.middle-left{
+    flex: 1.2;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+.middle-left-banner{
+  width: 90%;
+  height: fit-content;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.banner-middle{
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+button.lets-go {
+    padding: 10px 20px;
+    border: 3px solid grey;
+    background-color: #fff;
+    margin-top: 20px;
+    font-weight: 600;
+    color: gray;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.middle-right-image{
+    flex: 1;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.middle-right-image svg {
+    position: relative;
+    top: -70px;
+}
+
+
+
+/*VIDEO SECTION start*/
+
+.all-videos-wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row-header{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-header-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.row-header-left p.rec{
+  color: grey;
+  font-size: 14px;
+}
+
+.row-icon-foto{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    background-image: url( https://img.freepik.com/free-photo/cool-stylish-smiling-happy-blond-woman-walking-street-with-backpack_285396-1627.jpg?w=996&t=st=1710947403~exp=1710948003~hmac=54bdeed8ab3439003b49a15e6db60da08bf13f24efb7bd2e9d7653203a158605 );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.name-and-icon{
+    display: flex;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: gray;
+}
+
+.channel-icon{
+    display: grid;
+    place-content: center;
+}
+
+.statistic{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-weight: normal;
+    color: gray;
+    font-size: 14px;
+}
+
+.statistic span.dot{
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    background-color: gray;
+    display: inline-block;
+}
+
+.row-videos{
+    margin-top: 20px;
+    min-height: 300px;
+    font-weight: 600;
+}
+
+.row-videos:nth-child(1){
+    margin-top: 100px;
+}
+
+ .all-videos-wrapper .video-divider{
+    height: 1px;
+    background-color: rgb(199, 199, 199);
+    margin-top: 40px;
+}
+
+.row-video-cards{
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.arrow-right{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 40%;
+    right: -20px;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.subscribe-button{
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.single-card{
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.video iframe {
+    max-width: 250px;
+    width: 100%;
+    height: 100%;
+    height: 130px;
+}
+/*VIDEO SECTION end*/
+/* main end*/
